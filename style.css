@@ -1,5 +1,5 @@
 ﻿/* =========================================================
-   Auto Glow Detailing â€” site styles
+   Auto Glow Detailing - site styles
    ========================================================= */
 
 :root {
@@ -233,7 +233,7 @@ a { color: var(--teal); }
   color: #b9c6cc;
   font-size: 0.95rem;
 }
-.hero-facts li::before { content: "âœ“ "; color: var(--glow); font-weight: 700; }
+.hero-facts li::before { content: "\2713\00a0"; color: var(--glow); font-weight: 700; }
 
 /* ---------- Inner page hero ---------- */
 .page-hero {
@@ -328,7 +328,7 @@ a { color: var(--teal); }
 }
 .includes li { padding-left: 26px; position: relative; }
 .includes li::before {
-  content: "âœ“";
+  content: "\2713";
   position: absolute;
   left: 0;
   color: var(--teal);
@@ -454,7 +454,7 @@ a { color: var(--teal); }
   font-size: 1.3rem;
   line-height: 1;
 }
-.faq-list details[open] summary::after { content: "âˆ’"; background: var(--teal); color: #fff; }
+.faq-list details[open] summary::after { content: "\2212"; background: var(--teal); color: #fff; }
 .faq-list summary:focus-visible { outline: 3px solid var(--glow); outline-offset: 2px; border-radius: var(--radius); }
 .faq-answer { padding: 0 22px 18px; color: var(--muted); }
 .faq-answer p:last-child { margin-bottom: 0; }
